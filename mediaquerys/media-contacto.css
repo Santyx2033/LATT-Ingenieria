@@ -1,0 +1,18 @@
+@media only screen 
+/* and (min-device-width: 1100px)  */
+and (max-device-width: 850px)
+{
+      .form-contacto {
+    background: #ebebebeb;
+    padding: 50px 100px;
+    width: 90%;
+    border-top: 10px solid #ee5d0f;
+  }
+
+  .text-contacto h2{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    color: #050a4d;
+}
+}

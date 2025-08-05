@@ -1,0 +1,161 @@
+@media only screen 
+and (min-device-width: 1600px) 
+and (max-device-width: 1920px) 
+{
+    .ct1-side, .ct2-side, .ct3-side{
+        width: 400px;
+        height: 400px;
+    }
+
+    .wrapper-ct {
+        width: 100%;
+        background-color: #ebebebeb;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0 10rem
+    }
+
+    .wrapper-ct h2 {
+        text-align: center;
+        font-size: 3.5rem;
+        padding-bottom: 6rem;
+        font-weight: 600;
+    }
+
+    .group-ct span {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .ct1 ul{
+        list-style: circle;
+        font-size: 1.2rem;
+        text-align: left;
+        line-height: 4.2rem;
+        color: #050a4d;
+        margin-left: 2rem;
+    }
+    
+    .ct2 ul{
+        list-style: disc;
+        font-size: 1.1rem;
+        text-align: left;
+        line-height: 2.3rem;
+        color: #050a4d;
+        margin-left: 2rem;
+        list-style: circle;
+    }
+    
+    .ct3 ul{
+        list-style: disc;
+        font-size: 1rem;
+        text-align: left;
+        line-height: 2rem;
+        color: #050a4d;
+        margin-left: 2rem;
+        list-style: circle;
+    }
+}
+
+@media only screen  
+and (max-device-width: 1600px) 
+{
+    .group-ct {
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .ct1, .ct2, .ct3{
+       margin-top: 2rem;
+    }
+
+}
+
+@media only screen 
+and (max-device-width: 1100px) 
+{
+    .wrapper-ct h2 {
+        text-align: center;
+        font-size: 3.5rem;
+        padding-bottom: 4rem;
+        font-weight: 600;
+    }
+}
+
+@media only screen  
+and (max-device-width: 800px) 
+{
+    .wrapper-ct h2 {
+        text-align: center;
+        font-size: 3.5rem;
+        padding-bottom: 4rem;
+        font-weight: 600;
+    }
+}
+
+@media only screen  
+and (max-device-width: 635px) 
+{    
+    .ct1-side, .ct2-side, .ct3-side{
+        width: 300px;
+        height: 300px;
+    }
+
+    .ct1, .ct2, .ct3{
+        width: 300px;
+        height: 300px;
+     }
+
+    .wrapper-ct {
+        width: 100%;
+        background-color: #ebebebeb;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0 10rem
+    }
+
+    .wrapper-ct h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        padding-bottom: 3rem;
+        font-weight: 600;
+    }
+
+    .group-ct span {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .ct1 ul{
+        list-style: circle;
+        font-size: 1rem;
+        text-align: left;
+        line-height: 2.3rem;
+        color: #050a4d;
+        margin-left: 2rem;
+    }
+    
+    .ct2 ul{
+        list-style: disc;
+        font-size: .9rem;
+        text-align: left;
+        line-height: 1.5rem;
+        color: #050a4d;
+        margin-left: 2rem;
+        list-style: circle;
+    }
+    
+    .ct3 ul{
+        list-style: disc;
+        font-size: .8rem;
+        text-align: left;
+        line-height: 1.2rem;
+        color: #050a4d;
+        margin-left: 2rem;
+        list-style: circle;
+    }
+}

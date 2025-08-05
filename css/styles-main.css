@@ -1,0 +1,41 @@
+/* html{
+    scroll-behavior:smooth;
+    scroll-snap-type: proximity;
+} */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+#button{
+    background-color: #16237F;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border: none;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.box-area{
+    margin-bottom: 10rem;
+}
+
+#button:hover{
+    background-color: #4853a8;
+}
+
+.title{
+    font-size: 3rem;
+    color: #050a4d;
+}

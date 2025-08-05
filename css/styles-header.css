@@ -1,0 +1,163 @@
+/* .wrapper-navbar{
+    overflow: hidden;
+    background-color: #dddddd;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar {
+    padding: 1rem;
+    float: right;
+    display: flex;
+}
+
+.navbar-links{
+    float: right;
+    display: flex;
+}
+
+.navbar a {
+    display: block;
+    color: #050a4d;
+    text-align: center;
+    padding: 1.5rem 1.5rem 1.5rem 2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.navbar a:hover{
+    background-color: #cccccc;
+}
+
+.logo{
+    padding: 1rem;
+    float: left;
+    display: flex;
+    position: inherit;
+    padding: 1.5rem;
+}
+
+.logo img{
+    height: 4.5rem;
+}
+
+.logo img:hover{
+    opacity: 75%;
+} */
+
+.banner{
+    width: 100%;
+    height: 98vh;
+    background: url(../images/Stock/Background\ image.jpg);
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.425), hsla(0, 0%, 0%, 0.795)), url(../images/Stock/Background\ image.jpg);
+    background: linear-gradient(to left, hsla(0, 4%, 76%, 0.603), hsla(0, 0%, 19%, 0.637)), url(../images/Stock/Background\ image.jpg);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.navbar-links #button{
+    margin-left: 0.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+    background-color: #dddddd;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    align-items: center;
+    height: 10%;
+}
+
+
+nav .nav-list {
+    display: flex;
+    padding: 1rem;
+    list-style: none;   
+}
+
+nav .nav-list .nav-item .nav-link{
+    cursor: pointer;
+    transition: .4s;
+    display: block;
+    color: #050a4d;
+    text-align: center;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+nav .nav-list .nav-item{
+    margin-right: .5rem;
+}
+
+nav .nav-list .nav-item:hover {
+    background: #cccccc;
+}
+
+.navbar-brand img{
+    height: 4.5rem;
+}
+
+.navbar-brand img:hover{
+    opacity: 65%;
+}
+
+nav .navbar-toggler {
+    display: none;
+    height: min-content;
+    margin: 18px 2rem 0;
+    cursor: pointer;
+}
+
+nav .navbar-toggler .bar {
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background: #ee5d0f;
+    border-radius: 15%;
+    transition: .4s;
+}
+
+.toggle{
+    display: none;
+}
+
+input:checked ~ nav .nav-list {
+    transform: translateY(0);
+    opacity: 100;
+}
+
+input:checked ~ nav .navbar-toggler {
+    margin-top: 35px;
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(1) {
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
+    display: none;
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+#banner-logo{
+    width: 60%;
+    height: auto;
+    position: relative;
+    -webkit-filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.25));
+      
+}

@@ -1,0 +1,38 @@
+footer{
+    background-color: #dddddd;
+    padding:60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 15rem;
+}
+
+.container-footer{
+    display: flex;
+    width: 90%;
+    justify-content:space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #050a4d;
+}
+
+.content-footer{
+    text-align: center;
+    width: 20%;
+}
+
+.container-footer h4{
+    color: #050a4d;
+    border-bottom: 2px solid #050a4d;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.final-title{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #050a4d;
+    font-weight: 500;
+}

@@ -1,0 +1,44 @@
+.wrapper-qaqc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.text-qaqc{
+    width: 50%;
+    color: #050a4d;
+    margin-bottom: 1rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.text-qaqc h2{
+    font-size: 3rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
+.text-qaqc h3{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #050a4dc7;
+    font-weight: 500;
+}
+
+.text-qaqc p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: 300;
+}
+
+.text-qaqc strong{
+    font-weight: 600;
+}
+
+.wrapper-qaqc img{
+    width: 60%;
+    position: relative;
+}

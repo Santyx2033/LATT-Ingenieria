@@ -1,0 +1,148 @@
+@media only screen 
+and (max-device-width: 1500px)
+/* and (min-device-width: 550px) */
+{
+    
+    .wrapper-fv img, .wrapper-mant-it img, .wrapper-mant-electromecanico img{
+        width: 50%;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .text-fv h2, .text-mant-it h2, .text-mant-electromecanico h2{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        border-bottom: 2px solid #050a4d;
+        font-weight: 500;
+    }
+
+    .text-fv, .text-mant-it{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 50%;
+    }
+
+    .text-mant-electromecanico{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 50%;
+    }
+}
+
+@media only screen 
+and (max-device-width: 1140px)
+/* and (min-device-width: 550px) */
+{
+    
+    .wrapper-fv img, .wrapper-mant-it img, .wrapper-mant-electromecanico img{
+        width: 50%;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .text-fv h2, .text-mant-it h2, .text-mant-electromecanico h2{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        border-bottom: 2px solid #050a4d;
+        font-weight: 500;
+    }
+
+    .text-fv, .text-mant-it{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 50%;
+    }
+
+    .text-mant-electromecanico{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 50%;
+    }
+
+    .text-fv ul, .text-mant-it ul, .text-mant-electromecanico ul{
+        margin-left: 2rem;
+        line-height: 2.5rem;
+        color: #050a4d;
+        font-size: 1.2rem;  
+    }
+}
+
+@media only screen 
+and (max-device-width: 950px)
+/* and (min-device-width: 550px) */
+{
+    
+    .wrapper-fv img, .wrapper-mant-it img, .wrapper-mant-electromecanico img{
+        width: 50%;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .text-fv h2, .text-mant-it h2, .text-mant-electromecanico h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 2px solid #050a4d;
+        font-weight: 500;
+    }
+
+    .text-fv, .text-mant-it{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 50%;
+    }
+
+    .text-mant-electromecanico{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 50%;
+    }
+
+    .text-fv ul, .text-mant-it ul, .text-mant-electromecanico ul{
+        margin-left: 2rem;
+        line-height: 2.5rem;
+        color: #050a4d;
+        font-size: 1.2rem;  
+    }
+}
+
+@media only screen 
+and (max-device-width: 770px)
+/* and (min-device-width: 550px) */
+{
+    
+    .wrapper-fv img, .wrapper-mant-it img, .wrapper-mant-electromecanico img{
+        width: 30%;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .wrapper-fv, .wrapper-mant-it, .wrapper-mant-electromecanico{
+        border-top: 1px solid #050a4d;
+    }
+
+    .text-fv h2, .text-mant-it h2, .text-mant-electromecanico h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 2px solid #050a4d;
+        font-weight: 500;
+    }
+
+    .text-fv, .text-mant-it{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 70%;
+    }
+
+    .text-mant-electromecanico{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 70%;
+    }
+
+    .text-fv ul, .text-mant-it ul, .text-mant-electromecanico ul{
+        margin-left: 2rem;
+        line-height: 2.5rem;
+        color: #050a4d;
+        font-size: 1.2rem;  
+    }
+}

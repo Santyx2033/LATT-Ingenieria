@@ -1,0 +1,77 @@
+.wrapper-nosotros{
+    max-width: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 8rem;   
+}
+
+.wrapper-mision{
+    max-width: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;  
+}
+
+.wrapper-nosotros img{
+    width: 40%;
+}
+
+.wrapper-mision img{
+    width: 40%;
+}
+
+.text-nosotros{
+    padding-right: 5rem;
+}
+
+
+.text-nosotros h2{
+    text-align: center;
+}
+
+.text-nosotros p{
+    font-size: 1.2rem;
+    color: #050a4d;
+    text-align: center;
+    padding-top: 1rem;
+    line-height: 1.9rem;
+}
+
+.text-nosotros strong{
+    font-weight: 600;
+}
+
+
+.text-nosotros ul{
+    margin: 2rem;
+    color:#050a4d;
+    font-size: 1.2rem;
+    text-align: center;
+    list-style: none;
+    line-height: 2rem;
+}
+
+.text-mision{
+    padding-left: 7rem;
+}
+
+.text-mision h2{
+    text-align: center;
+}
+
+.text-mision p{
+    font-size: 1.2rem;
+    color: #050a4d;
+    text-align: center;
+    line-height: 1.9rem;
+    padding-top: 1rem;
+}
+
+.text-mision strong{
+    font-weight: 600;
+}

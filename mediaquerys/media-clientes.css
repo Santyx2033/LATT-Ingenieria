@@ -1,0 +1,36 @@
+@media only screen 
+and (max-device-width: 1000px)
+/* and (min-device-width: 550px) */
+{
+    #clientes .title{
+        text-align: center;
+        margin-bottom: 2rem;
+        font-weight: 600;
+        font-size:3rem;
+    }
+}
+
+@media only screen 
+and (max-device-width: 750px)
+/* and (min-device-width: 550px) */
+{
+    #clientes .title{
+        text-align: center;
+        margin-bottom: 4rem;
+        font-weight: 600;
+        font-size:2.6rem;
+    }
+
+    .slider{
+        height: 10vh;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        width: auto;
+    }
+
+    .slide img{
+        height: 10vh;
+    }
+    
+}

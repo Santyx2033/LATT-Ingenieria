@@ -1,0 +1,121 @@
+#servicios-list{
+    margin-bottom: 0;
+    padding-bottom: 0.3rem;
+    background-color: #ffffff;
+}
+
+/* Wrappers */
+
+.wrapper-fv{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ebebebeb;
+}
+
+.wrapper-mant-electromecanico{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ebebebeb;
+}
+
+.wrapper-mant-it{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ebebebeb;
+}
+
+
+/* Images */
+
+.wrapper-fv img{
+    width: 50%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.wrapper-mant-electromecanico img{
+    width: 50%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.wrapper-mant-it img{
+    width: 50%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+
+/* Text */
+
+.text-fv{
+    padding-left: 15%;
+    padding-right: 5%;
+    width: 50%;
+}
+
+.text-fv ul{
+    margin-left: 2rem;
+    line-height: 3rem;
+    color: #050a4d;
+    font-size: 1.6rem;   
+}
+
+.text-fv h2{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #050a4d;
+    font-weight: 500;
+}
+
+.text-mant-electromecanico{
+    padding-left: 10%;
+    padding-right: 5%;
+    width: 50%;
+}
+
+.text-mant-electromecanico ul{
+    margin-left: 2rem;
+    line-height: 3rem;
+    color: #050a4d;
+    font-size: 1.6rem;   
+}
+
+.text-mant-electromecanico h2{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #050a4d;
+    font-weight: 500;
+}
+
+.text-mant-it{
+    padding-left: 15%;
+    padding-right: 5%;
+    width: 50%;
+}
+
+.text-mant-it ul{
+    margin-left: 2rem;
+    line-height: 3rem;
+    color: #050a4d;
+    font-size: 1.6rem;   
+}
+
+.text-mant-it h2{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #050a4d;
+    font-weight: 500;
+}

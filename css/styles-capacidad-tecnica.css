@@ -1,0 +1,131 @@
+#ct {
+    margin-bottom: 0;
+    padding-top: 7rem;
+}
+
+.wrapper-ct h2 {
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 6rem;
+    font-weight: 600;
+}
+
+.wrapper-ct {
+    width: 100%;
+    background-color: #ebebebeb;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0 10rem
+}
+
+.group-ct {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.group-ct span {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.ct1 ul{
+    list-style: circle;
+    font-size: 1.8rem;
+    text-align: left;
+    line-height: 4.2rem;
+    color: #050a4d;
+    margin-left: 2rem;
+}
+
+.ct2 ul{
+    list-style: disc;
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 2.7rem;
+    color: #050a4d;
+    margin-left: 2rem;
+    list-style: circle;
+}
+
+.ct3 ul{
+    list-style: disc;
+    font-size: 1.35rem;
+    text-align: left;
+    line-height: 2.3rem;
+    color: #050a4d;
+    margin-left: 2rem;
+    list-style: circle;
+}
+
+
+.ct1-side.front{
+    background: url(../images/Stock/conference\ room.jpg);
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.425), hsla(0, 0%, 0%, 0.795)), url(../images/Stock/conference\ room.jpg);
+    background: linear-gradient(to right, hsla(0, 3%, 12%, 0.747), hsla(0, 0%, 19%, 0.795)), url(../images/Stock/conference\ room.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ct2-side.front{
+    background: url(../images/Stock/design.jpg);
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.425), hsla(0, 0%, 0%, 0.795)), url(../images/Stock/design.jpg);
+    background: linear-gradient(to right, hsla(0, 3%, 12%, 0.747), hsla(0, 0%, 19%, 0.795)), url(../images/Stock/design.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ct3-side.front{
+    background: url(../images/Stock/construction2.jpg);
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.425), hsla(0, 0%, 0%, 0.795)), url(../images/Stock/construction2.jpg);
+    background: linear-gradient(to right, hsla(0, 3%, 12%, 0.747), hsla(0, 0%, 19%, 0.795)), url(../images/Stock/construction2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ct1-side.back, .ct2-side.back, .ct3-side.back{
+    transform: rotateY(-180deg);
+    background-color: #00000020;
+}
+
+.ct1:hover .ct1-side.front,  .ct2:hover .ct2-side.front, .ct3:hover .ct3-side.front{
+    transform: rotateY(180deg);
+}
+  
+.ct1:hover .ct1-side.back, .ct2:hover .ct2-side.back, .ct3:hover .ct3-side.back {
+    transform: rotateY(0deg);
+}
+
+.ct1, .ct2, .ct3{
+    perspective: 150rem;
+    position: relative;
+    text-decoration: none;
+    margin: 0 1%;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    color: #ebebebeb;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    -webkit-filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+.ct1-side, .ct2-side, .ct3-side{
+    width: 500px;
+    height: 500px;
+    border-radius: 0.5rem;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+    color: #ebebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,83 @@
+#alcance{
+    margin-bottom: 0;
+}
+
+.wrapper-alcance{
+    margin: auto;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.alcance1{
+    /* border-radius: 3%; */
+    margin-right: 1rem;
+    width: 40%;
+    height: 70%;
+    background: url(../images/Stock/electrical\ engineering.jpg);
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.425), hsla(0, 0%, 0%, 0.795)), url(../images/Stock/electrical\ engineering.jpg);
+    background: linear-gradient(to right, hsla(0, 4%, 9%, 0.685), hsla(0, 0%, 19%, 0.658)), url(../images/Stock/electrical\ engineering.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alcance2{
+    /* border-radius: 3%; */
+    margin-left: calc(100%*1rem);
+    width: 40%;
+    height: 70%;
+    background: url(../images/Stock/data\ center\ 2.jpg);
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.425), hsla(0, 0%, 0%, 0.795)), url(../images/Stock/data\ center\ 2.jpg);
+    background: linear-gradient(to right, hsla(0, 3%, 12%, 0.692), hsla(0, 0%, 19%, 0.726)), url(../images/Stock/data\ center\ 2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alcance1 h2{
+    
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #dddddd;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.alcance2 h2{
+    padding: 0 2rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #dddddd;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.alcance1 a{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 12rem;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.alcance2 a{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 12rem;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 2rem;   
+}
